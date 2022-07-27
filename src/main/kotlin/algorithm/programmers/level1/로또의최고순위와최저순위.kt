@@ -3,13 +3,10 @@ package algorithm.programmers.level1
 /**
  * 로또의 최고 순위와 최저순위
  *
- * <a href="https://school.programmers.co.kr/learn/courses/30/lessons/77484">https://school.programmers.co.kr/learn/courses/30/lessons/77484</a>
+ * @see <a href="https://school.programmers.co.kr/learn/courses/30/lessons/77484">https://school.programmers.co.kr/learn/courses/30/lessons/77484</a>
  */
-class Solution {
-
-    fun solution(lottos: IntArray, winNums: IntArray): IntArray {
-        return Lotto(lottos, winNums).solve()
-    }
+fun solution(lottos: IntArray, winNums: IntArray): IntArray {
+    return Lotto(lottos, winNums).solve()
 }
 
 class Lotto(
