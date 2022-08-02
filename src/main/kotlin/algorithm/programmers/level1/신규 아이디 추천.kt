@@ -5,7 +5,7 @@ package algorithm.programmers.level1
  *
  * @see <a href="https://school.programmers.co.kr/learn/courses/30/lessons/72410">https://school.programmers.co.kr/learn/courses/30/lessons/72410</a>
  */
-fun solution(newId: String): String {
+fun `신규 아이디 추천`(newId: String): String {
     return IdRecommender(newId).recommend()
 }
 

@@ -5,7 +5,7 @@ package algorithm.programmers.level1
  *
  * @see <a href="https://school.programmers.co.kr/learn/courses/30/lessons/77484">https://school.programmers.co.kr/learn/courses/30/lessons/77484</a>
  */
-fun solution(lottos: IntArray, winNums: IntArray): IntArray {
+fun `로또의 최고 순위와 최저순위`(lottos: IntArray, winNums: IntArray): IntArray {
     return Lotto(lottos, winNums).solve()
 }
 

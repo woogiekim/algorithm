@@ -5,7 +5,7 @@ package algorithm.programmers.level1
  *
  * @see <a href="https://school.programmers.co.kr/learn/courses/30/lessons/92334">https://school.programmers.co.kr/learn/courses/30/lessons/92334</a>
  */
-fun solution(idList: Array<String>, report: Array<String>, k: Int): IntArray {
+fun `신고 결과 받기`(idList: Array<String>, report: Array<String>, k: Int): IntArray {
     return BlockList(idList, report, k).report()
 }
 
